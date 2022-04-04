@@ -97,16 +97,21 @@ function App() {
               GOFER is an errand application that enables users to post tasks
               and other users to carry them out for a price.
             </p>
-            <p className="position">learn more</p>
-            <p className="company-name">food recipe applicstion</p>
+            <button className="btnp">View full project</button>{" "}
+            <p className="company-name">Food recipe application</p>
             <p className="date">
               A food recipe management app that helps users to management food
               recipes.
             </p>
-            <p className="position">Learn more</p>
-            <p className="company-name">ultrabaesic consultancy</p>
-            <p className="date">2019/11 ➡️ 2021/08</p>
-            <p className="position">fullstack Engineer</p>{" "}
+            <button className="btnp">View full project</button>{" "}
+            <p className="company-name">
+              DAO--decentralized-Autonomous-Organisation
+            </p>
+            <p className="date">
+              This app is to allow crypto NFT holders to create and vote on
+              proposals.
+            </p>
+            <button className="btnp">View full project</button>{" "}
           </div>
           <div className="item  item-icon">
             <img
@@ -181,6 +186,34 @@ function App() {
               src="https://img.icons8.com/color/480/000000/docker.png"
             />
           </div>
+        </div>
+        <div className="container2">
+          <div className="item  item-1">
+            <p>Wanna Start a project?</p>
+            <p>or</p>
+            <p>Wanna say Hello ?</p>
+            <div className="social  item-icon">
+              <img className="icon" alt="" src="link.gif" />
+              <img className="icon" alt="" src="github.gif" />
+              <img className="icon" alt="" src="twitter.gif" />
+              <img className="icon" alt="" src="ig.gif" />
+            </div>
+            <h6>© Designed and built by Johnson Afuye.</h6>
+          </div>
+          <div className="item footer ">
+            <h6> Brief resume</h6>
+            <div className="hr"></div>
+            <p className="company-name">Decagon</p>
+            <p className="date">2021/08 ➡️ today</p>
+            <p className="position">Software Engineer</p>
+            <p className="company-name">Zigatech</p>
+            <p className="date">2022/02 ➡️ today</p>
+            <p className="position">Backend Engineer</p>
+            <p className="company-name">Ultrabaesic consultancy</p>
+            <p className="date">2019/11 ➡️ 2021/08</p>
+            <p className="position">Fullstack Engineer</p>{" "}
+          </div>
+      
         </div>
       </div>
     </>
