@@ -22,7 +22,7 @@ function App() {
         </div>
         <div className="container2">
           <div className="item ">
-            I currently live in Brooklyn, NY, and am searching for new work
+            I currently live in lagos, Nigeria, and am searching for new work
             opportunities starting July 2022. I am looking for a
             company/start-up/agency that can offer exciting product challenges,
             a passion for design, and a lovely culture.
@@ -48,7 +48,7 @@ function App() {
             />
           </div>
           <div className="project">
-            <h6 className="project-title"> Nexta blog</h6>
+            <h6 className="project-title"> Nexta blog 〄</h6>
             <p>
               Nexta blog app creates an avenue to write about trips you have
               taken, what you learned during the trip and the experiences you
@@ -57,7 +57,7 @@ function App() {
             </p>
           </div>
           <div className="project">
-            <h6 className="project-title"> Edugie Homes</h6>
+            <h6 className="project-title"> Edugie Homes 🏕</h6>
             <p>
               Nexta blog app creates an avenue to write about trips you have
               taken, what you learned during the trip and the experiences you
@@ -80,7 +80,7 @@ function App() {
             />
           </div>
           <div className="project">
-            <h6 className="project-title"> Nexta blog</h6>
+            <h6 className="project-title"> Crypto Dev Defi 💲 </h6>
             <p>
               This is a decentralized finance exchange Built with only one asset
               pair (Eth & Crypto Dev token). This Decentralized Exchange takes a
