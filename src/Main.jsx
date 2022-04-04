@@ -89,7 +89,7 @@ function App() {
           </div>
         </div>
         <div className="container2 grey">
-          <div className="item ">
+          <div className="item-project ">
             <h6>More Projects</h6>
             <div className="hr"></div>
             <p className="company-name">Gofer</p>

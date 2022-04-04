@@ -192,11 +192,22 @@ html {
   }
 
   .grey {
-    grid-auto-rows: 60rem;
+    grid-auto-rows: 40rem;
+    padding-top: 10rem;
+  }
+
+  .icon {
+    width: 5rem;
   }
 
   .item-icon {
-    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .item-project {
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 
   .hero-img {
