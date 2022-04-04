@@ -85,8 +85,6 @@ function App() {
               This is a decentralized finance exchange Built with only one asset
               pair (Eth & Crypto Dev token). This Decentralized Exchange takes a
               fee of 1% on swaps. When a user adds liquidity, they are given
-              Crypto Dev LP tokens. Crypto Dev LP tokens is be given propotional
-              to the Ether user is willing to add to the liquidity.
             </p>
           </div>
         </div>

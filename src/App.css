@@ -184,19 +184,29 @@ html {
     font-size: 50%;
   }
   .container {
-    padding-top: 0 rem;
+    padding: 1rem;
+    padding-top: 5rem;
     grid-auto-rows: 50rem;
     align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
   }
 
   .container2 {
+    padding: 2rem;
     grid-auto-rows: 45rem;
     align-items: center;
     justify-items: start;
+    grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
   }
 
   .hero-img {
-    width: 50rem;
+    width: 45rem;
+    padding: 0;
+  }
+
+  .hero-imgs {
+    width: 45rem;
+    padding: 0;
   }
 }
 
