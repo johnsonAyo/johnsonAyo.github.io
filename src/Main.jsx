@@ -88,6 +88,100 @@ function App() {
             </p>
           </div>
         </div>
+        <div className="container2 grey">
+          <div className="item ">
+            <h6>More Projects</h6>
+            <div className="hr"></div>
+            <p className="company-name">Gofer</p>
+            <p className="date">
+              GOFER is an errand application that enables users to post tasks
+              and other users to carry them out for a price.
+            </p>
+            <p className="position">learn more</p>
+            <p className="company-name">food recipe applicstion</p>
+            <p className="date">
+              A food recipe management app that helps users to management food
+              recipes.
+            </p>
+            <p className="position">Learn more</p>
+            <p className="company-name">ultrabaesic consultancy</p>
+            <p className="date">2019/11 ➡️ 2021/08</p>
+            <p className="position">fullstack Engineer</p>{" "}
+          </div>
+          <div className="item  item-icon">
+            <img
+              className="icon"
+              alt=""
+              src="https://img.icons8.com/color/144/000000/react-native.png"
+            />
+            <img className="icon" alt="" src="js.gif" />
+            <img
+              className="icon"
+              alt=""
+              src="https://img.icons8.com/color/960/000000/typescript.png"
+            />
+            <img
+              className="icon"
+              alt=""
+              src="https://img.icons8.com/color/960/000000/nodejs.png"
+            />
+            <img
+              className="icon"
+              alt=""
+              src="https://img.icons8.com/color/960/000000/mongodb.png"
+            />
+            <img
+              className="icon"
+              alt=""
+              src="https://img.icons8.com/color/480/000000/postgreesql.png"
+            />
+            <img
+              className="icon"
+              alt=""
+              src="https://img.icons8.com/color/480/000000/css3.png"
+            />
+            <img
+              className="icon"
+              alt=""
+              src="https://img.icons8.com/color/480/000000/sass.png"
+            />
+            <img
+              className="icon"
+              alt=""
+              src="https://img.icons8.com/color/960/000000/html-5--v2.png"
+            />
+            <img
+              className="icon"
+              alt=""
+              src="https://img.icons8.com/color/480/000000/ethereum.png"
+            />
+            <img
+              className="icon"
+              alt=""
+              src="https://img.icons8.com/color/480/000000/firebase.png"
+            />
+            <img
+              className="icon"
+              alt=""
+              src="https://img.icons8.com/color/480/000000/graphql.png"
+            />
+            <img
+              className="icon"
+              alt=""
+              src="https://img.icons8.com/color/480/000000/git.png"
+            />
+            <img
+              className="icon"
+              alt=""
+              src="https://img.icons8.com/color/480/000000/redux.png"
+            />
+            <img
+              className="icon"
+              alt=""
+              src="https://img.icons8.com/color/480/000000/docker.png"
+            />
+          </div>
+        </div>
       </div>
     </>
   );
