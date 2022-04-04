@@ -21,7 +21,7 @@ function App() {
           </div>
         </div>
         <div className="container2">
-          <div className="item ">
+          <div className="item  item-1">
             I currently live in lagos, Nigeria, and am searching for new work
             opportunities starting July 2022. I am looking for a
             company/start-up/agency that can offer exciting product challenges,

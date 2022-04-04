@@ -179,34 +179,42 @@ html {
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 500px) {
   html {
     font-size: 50%;
   }
   .container {
-    padding: 1rem;
-    padding-top: 5rem;
+    width: 100%;
+    padding: 0;
+    padding-top: 10rem;
     grid-auto-rows: 50rem;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
+    margin: 0;
   }
 
   .container2 {
-    padding: 2rem;
+    width: 100%;
+    padding: 0;
     grid-auto-rows: 45rem;
     align-items: center;
-    justify-items: start;
+    justify-items: center;
     grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
+    margin: 0;
   }
 
   .hero-img {
-    width: 45rem;
+    width: 40rem;
     padding: 0;
   }
 
   .hero-imgs {
-    width: 45rem;
+    width: 35rem;
     padding: 0;
+  }
+
+  .item-1 {
+    padding: 2rem;
   }
 }
 
