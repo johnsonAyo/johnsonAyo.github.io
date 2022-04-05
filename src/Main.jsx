@@ -15,7 +15,7 @@ function App() {
           </div>
 
           <img
-            src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649135929/samples/img_xrecto.jpg"
+            srcSet="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649135929/samples/img_xrecto.jpg"
             className="hero-img"
             alt="Woman enjoying food, meals in storage container, and food bowls on a table"
           />
@@ -42,7 +42,7 @@ function App() {
           </div>
           <div className="img-container">
             <img
-              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649135582/samples/travelblog_bc8p8i.png"
+              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155463/samples/travelmobile_x2tyxl.jpg"
               className="hero-imgs"
               alt="Woman enjoying food, meals in storage container, and food bowls on a table"
             />
@@ -67,14 +67,14 @@ function App() {
           </div>
           <div className="img-container edugie-picture">
             <img
-              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649135855/samples/edugie_bnvd1e.png"
+              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155465/samples/edugemobile_dh38fg.jpg"
               className="hero-imgs"
               alt="Woman enjoying food, meals in storage container, and food bowls on a table"
             />
           </div>
           <div className="img-container">
             <img
-              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649135776/samples/cryptodev_ymwqvc.png"
+              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155463/samples/cryptomobile_uiokhn.jpg"
               className="hero-imgs"
               alt="Woman enjoying food, meals in storage container, and food bowls on a table"
             />
