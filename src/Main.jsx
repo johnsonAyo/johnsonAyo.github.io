@@ -15,7 +15,7 @@ function App() {
           </div>
 
           <img
-            srcSet="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649135929/samples/img_xrecto.jpg"
+            srcSet="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649157134/samples/WhatsApp_Image_2022-03-11_at_8.54.01_PM_crgq5a.jpg"
             className="hero-img"
             alt="Woman enjoying food, meals in storage container, and food bowls on a table"
           />

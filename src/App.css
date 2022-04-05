@@ -146,7 +146,7 @@ html {
   font-size: 3rem;
 }
 .hero-img {
-  width: 70%;
+  width: 80%;
   justify-self: center;
   object-fit: cover;
 
@@ -284,12 +284,9 @@ html {
     margin-right: 3rem;
   }
 
-  .hero-img {
-    width: 60%;
-  }
-
   .hero-imgs {
-    width: 35rem;
+    width: 55rem;
+    align-self: center;
     padding: 0;
   }
 
