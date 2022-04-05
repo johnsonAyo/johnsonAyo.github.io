@@ -162,8 +162,8 @@ html {
   animation-timing-function: ease-out;
 }
 .hero-imgs {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   object-fit: cover;
   border-radius: 1rem;
 }
@@ -285,7 +285,7 @@ html {
   }
 
   .hero-imgs {
-    width: 55rem;
+    width: 40rem;
     align-self: center;
     padding: 0;
   }
