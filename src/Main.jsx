@@ -8,18 +8,17 @@ function App() {
       <Navbar />
       <div className="wrapper">
         <div className="container">
-          <div className="item  item-1">
+          <div className="moveInLeft item-1">
             👋 Hi! My name is Johnson. I am a Software engineer with a passion
             for physical computing. I want to improve the world with simple yet
             smart solutions.
           </div>
-          <div className="img-container">
-            <img
-              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649135929/samples/img_xrecto.jpg"
-              className="hero-img"
-              alt="Woman enjoying food, meals in storage container, and food bowls on a table"
-            />
-          </div>
+
+          <img
+            src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649135929/samples/img_xrecto.jpg"
+            className="hero-img"
+            alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+          />
         </div>
         <div className="container2">
           <div className="item  item-1">
@@ -99,7 +98,7 @@ function App() {
               and other users to carry them out for a price.
             </p>
             <a href="https://github.com/johnsonAyo/gofer-backend">
-              <button className="btnp">View full project</button>
+              <button className="btnp">Explore Project</button>
             </a>
             <p className="company-name">Food recipe application</p>
             <p className="date">
@@ -107,7 +106,7 @@ function App() {
               recipes.
             </p>
             <a href="https://github.com/johnsonAyo/food-recipes-Api">
-              <button className="btnp">View full project</button>
+              <button className="btnp">Explore Project</button>
             </a>
             <p className="company-name">
               DAO--decentralized-Autonomous-Organisation
@@ -117,7 +116,7 @@ function App() {
               proposals.
             </p>
             <a href="https://github.com/johnsonAyo/DAO-Decentralized_Autonomous_Organisation">
-              <button className="btnp">View full project</button>
+              <button className="btnp">Explore Project</button>
             </a>
           </div>
           <div className="item  item-icon">
