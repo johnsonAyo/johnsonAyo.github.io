@@ -15,7 +15,7 @@ function App() {
           </div>
           <div className="img-container">
             <img
-              src="img.jpg"
+              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649135929/samples/img_xrecto.jpg"
               className="hero-img"
               alt="Woman enjoying food, meals in storage container, and food bowls on a table"
             />
@@ -24,7 +24,7 @@ function App() {
         <div className="container2">
           <div className="item  item-1">
             I currently live in lagos, Nigeria, and am searching for new work
-            opportunities starting July 2022. I am looking for a
+            opportunities as a software Engineer. I am looking for a
             company/start-up/agency that can offer exciting product challenges,
             a passion for design, and a lovely culture.
           </div>
@@ -34,48 +34,48 @@ function App() {
             <p className="company-name">Decagon</p>
             <p className="date">2021/08 ➡️ today</p>
             <p className="position">Software Engineer</p>
-            <p className="company-name">zigatech</p>
+            <p className="company-name">Zigatech</p>
             <p className="date">2022/02 ➡️ today</p>
             <p className="position">Backend Engineer</p>
-            <p className="company-name">ultrabaesic consultancy</p>
+            <p className="company-name">Ultrabaesic consultancy</p>
             <p className="date">2019/11 ➡️ 2021/08</p>
-            <p className="position">fullstack Engineer</p>{" "}
+            <p className="position">Fullstack Engineer</p>{" "}
           </div>
           <div className="img-container">
             <img
-              src="travelblog.png"
+              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649135582/samples/travelblog_bc8p8i.png"
               className="hero-imgs"
               alt="Woman enjoying food, meals in storage container, and food bowls on a table"
             />
           </div>
           <div className="project">
-            <h6 className="project-title"> Nexta blog 〄</h6>
+            <h6 className="project-title"> Discover Africa 〄</h6>
             <p>
-              Nexta blog app creates an avenue to write about trips you have
-              taken, what you learned during the trip and the experiences you
-              had. It is a collection of adventures, stories, memories and
-              discovery
+              Discover Africa creates an avenue to write about trips you have
+              taken around african countries, what you learned during the trip
+              and the experiences you had. It is a collection of adventures,
+              stories, memories, discovery and also to showcase and promote
+              African Cultures.
             </p>
           </div>
           <div className="project">
             <h6 className="project-title"> Edugie Homes 🏕</h6>
             <p>
-              Nexta blog app creates an avenue to write about trips you have
-              taken, what you learned during the trip and the experiences you
-              had. It is a collection of adventures, stories, memories and
-              discovery
+              This is a food menu application for edugie homes where customers
+              can browse through the list of available meals with their
+              respective prices and order for the desired meals.
             </p>
           </div>
           <div className="img-container edugie-picture">
             <img
-              src="edugie.png"
+              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649135855/samples/edugie_bnvd1e.png"
               className="hero-imgs"
               alt="Woman enjoying food, meals in storage container, and food bowls on a table"
             />
           </div>
           <div className="img-container">
             <img
-              src="cryptodev.png"
+              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649135776/samples/cryptodev_ymwqvc.png"
               className="hero-imgs"
               alt="Woman enjoying food, meals in storage container, and food bowls on a table"
             />
@@ -98,13 +98,17 @@ function App() {
               GOFER is an errand application that enables users to post tasks
               and other users to carry them out for a price.
             </p>
-            <div className="btnp">View full project</div>{" "}
+            <a href="https://github.com/johnsonAyo/gofer-backend">
+              <button className="btnp">View full project</button>
+            </a>
             <p className="company-name">Food recipe application</p>
             <p className="date">
               A food recipe management app that helps users to management food
               recipes.
             </p>
-            <div className="btnp">View full project</div>{" "}
+            <a href="https://github.com/johnsonAyo/food-recipes-Api">
+              <button className="btnp">View full project</button>
+            </a>
             <p className="company-name">
               DAO--decentralized-Autonomous-Organisation
             </p>
@@ -112,7 +116,9 @@ function App() {
               This app is to allow crypto NFT holders to create and vote on
               proposals.
             </p>
-            <div className="btnp">View full project</div>{" "}
+            <a href="https://github.com/johnsonAyo/DAO-Decentralized_Autonomous_Organisation">
+              <button className="btnp">View full project</button>
+            </a>
           </div>
           <div className="item  item-icon">
             <img
@@ -194,10 +200,18 @@ function App() {
             <p>or</p>
             <p>Wanna say Hello ?</p>
             <div className="social  item-icon">
-              <img className="icon" alt="" src="link.gif" />
-              <img className="icon" alt="" src="github.gif" />
-              <img className="icon" alt="" src="twitter.gif" />
-              <img className="icon" alt="" src="ig.gif" />
+              <a href="hhttps://www.linkedin.com/in/johnson-a-b2763b162/">
+                <img className="icon" alt="" src="link.gif" />
+              </a>
+              <a href="https://github.com/johnsonAyo">
+                <img className="icon" alt="" src="github.gif" />
+              </a>
+              <a href="https://twitter.com/Ambiti0n____">
+                <img className="icon" alt="" src="twitter.gif" />
+              </a>
+              <a href="mailto:johnsonafuye@gmail.com">
+                <img className="icon" alt="" src="gmail.gif" />
+              </a>
             </div>
             <h6>© Designed and built by Johnson Afuye.</h6>
           </div>
