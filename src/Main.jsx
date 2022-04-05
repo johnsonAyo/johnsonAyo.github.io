@@ -1,10 +1,11 @@
 import "./App.css";
+import Navbar from "./Navbar/Navbar";
 import Nav from "./Nav";
 
 function App() {
   return (
     <>
-      <Nav />
+      <Navbar />
       <div className="wrapper">
         <div className="container">
           <div className="item  item-1">
@@ -97,13 +98,13 @@ function App() {
               GOFER is an errand application that enables users to post tasks
               and other users to carry them out for a price.
             </p>
-            <button className="btnp">View full project</button>{" "}
+            <div className="btnp">View full project</div>{" "}
             <p className="company-name">Food recipe application</p>
             <p className="date">
               A food recipe management app that helps users to management food
               recipes.
             </p>
-            <button className="btnp">View full project</button>{" "}
+            <div className="btnp">View full project</div>{" "}
             <p className="company-name">
               DAO--decentralized-Autonomous-Organisation
             </p>
@@ -111,7 +112,7 @@ function App() {
               This app is to allow crypto NFT holders to create and vote on
               proposals.
             </p>
-            <button className="btnp">View full project</button>{" "}
+            <div className="btnp">View full project</div>{" "}
           </div>
           <div className="item  item-icon">
             <img
@@ -213,7 +214,6 @@ function App() {
             <p className="date">2019/11 ➡️ 2021/08</p>
             <p className="position">Fullstack Engineer</p>{" "}
           </div>
-      
         </div>
       </div>
     </>
