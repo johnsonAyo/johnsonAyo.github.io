@@ -40,21 +40,23 @@ function App() {
             <p className="date">2019/11 ➡️ 2021/08</p>
             <p className="position">Fullstack Engineer</p>{" "}
           </div>
-          <div className="img-container">
-            <img
-              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155463/samples/travelmobile_x2tyxl.jpg"
-              className="hero-imgs"
-              alt="Woman enjoying food, meals in storage container, and food bowls on a table"
-            />
-          </div>
+        </div>
+        <h1 className="subheading"> Recent Projects</h1>
+        <div className="container2">
+          {/* <a href="https://travel-stories-ashen.vercel.app/"> */}
+          <img
+            src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155463/samples/travelmobile_x2tyxl.jpg"
+            className="hero-img"
+            alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+          />
+          {/* </a> */}
+
           <div className="project">
             <h6 className="project-title"> Discover Africa 〄</h6>
             <p>
-              Discover Africa creates an avenue to write about trips you have
-              taken around african countries, what you learned during the trip
-              and the experiences you had. It is a collection of adventures,
-              stories, memories, discovery and also to showcase and promote
-              African Cultures.
+              Discover Africa allows user to write about trips taken around
+              african countries. It is a collection of adventures, stories,
+              memories, discovery and to showcase and promote African Cultures.
             </p>
           </div>
           <div className="project">
@@ -65,20 +67,21 @@ function App() {
               respective prices and order for the desired meals.
             </p>
           </div>
-          <div className="img-container edugie-picture">
-            <img
-              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155465/samples/edugemobile_dh38fg.jpg"
-              className="hero-imgs"
-              alt="Woman enjoying food, meals in storage container, and food bowls on a table"
-            />
-          </div>
-          <div className="img-container">
-            <img
-              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155463/samples/cryptomobile_uiokhn.jpg"
-              className="hero-imgs"
-              alt="Woman enjoying food, meals in storage container, and food bowls on a table"
-            />
-          </div>
+          {/* <a href="mailto:johnsonafuye@gmail.com"> */}
+          <img
+            src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155465/samples/edugemobile_dh38fg.jpg"
+            className="hero-img edugie-picture"
+            alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+          />
+          {/* </a> */}
+          {/* <a href="mailto:johnsonafuye@gmail.com"> */}
+          <img
+            src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155463/samples/cryptomobile_uiokhn.jpg"
+            className="hero-img"
+            alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+          />
+          {/* </a> */}
+
           <div className="project">
             <h6 className="project-title"> Crypto Dev Defi 💲 </h6>
             <p>
