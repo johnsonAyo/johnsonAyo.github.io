@@ -107,7 +107,7 @@ html {
   width: 8rem;
 }
 
-.item-icon {
+.hero-icon {
   margin: 5rem;
 }
 
@@ -257,11 +257,11 @@ html {
     width: 7rem;
   }
 
-  .item-icon {
+  .hero-icon {
     margin: 3rem;
   }
 
-  .item-project {
+  .hero-project {
     margin-left: 3rem;
     margin-right: 3rem;
   }
@@ -272,7 +272,7 @@ html {
     padding: 0;
   }
 
-  .item-1 {
+  .hero-1 {
     padding: 2rem;
   }
 }

@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <div className="wrapper">
         <div className="container">
-          <div className="moveInLeft item-1">
+          <div className="moveInLeft hero-1">
             👋 Hi! My name is Johnson. I am a Software engineer with a passion
             for physical computing. I want to improve the world with simple yet
             smart solutions.
@@ -25,13 +25,13 @@ function App() {
           </div>
         </div>
         <div className="container2">
-          <div className="item  item-1">
+          <div className="hero  hero-1">
             I currently live in lagos, Nigeria, and am searching for new work
             opportunities as a software Engineer. I am looking for a
             company/start-up/agency that can offer exciting product challenges,
             a passion for design, and a lovely culture.
           </div>
-          <div className="item ">
+          <div className="hero ">
             <Resume />
           </div>
         </div>
@@ -92,7 +92,7 @@ function App() {
           </div>
         </div>
         <div className="container2">
-          <div className="item-project ">
+          <div className="hero-project ">
             <h6>More Projects</h6>
             <div className="hr"></div>
             <p className="company-name">Gofer</p>
@@ -125,11 +125,11 @@ function App() {
           <Icon />
         </div>
         <div className="container2">
-          <div className="item  item-1">
+          <div className="hero  hero-1">
             <p>Wanna Start a project?</p>
             <p>or</p>
             <p>Wanna say Hello ?</p>
-            <div className="social  item-icon">
+            <div className="social  hero-icon">
               <a href="hhttps://www.linkedin.com/in/johnson-a-b2763b162/">
                 <img className="icon" alt="" src="link.gif" />
               </a>
@@ -145,7 +145,7 @@ function App() {
             </div>
             <h6>© Designed and built by Johnson Afuye.</h6>
           </div>
-          <div className="item footer ">
+          <div className="hero footer ">
             <Resume />
           </div>
         </div>
