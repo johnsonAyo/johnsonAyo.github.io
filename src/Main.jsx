@@ -42,14 +42,14 @@ function App() {
           </div>
         </div>
         <h1 className="subheading"> Recent Projects</h1>
-        <div className="container2">
-          {/* <a href="https://travel-stories-ashen.vercel.app/"> */}
-          <img
-            src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155463/samples/travelmobile_x2tyxl.jpg"
-            className="hero-img"
-            alt="Woman enjoying food, meals in storage container, and food bowls on a table"
-          />
-          {/* </a> */}
+        <div className="container3">
+          <a href="https://travel-stories-ashen.vercel.app/">
+            <img
+              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155463/samples/travelmobile_x2tyxl.jpg"
+              className="hero-img"
+              alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+            />
+          </a>
 
           <div className="project">
             <h6 className="project-title"> Discover Africa 〄</h6>
@@ -67,20 +67,22 @@ function App() {
               respective prices and order for the desired meals.
             </p>
           </div>
-          {/* <a href="mailto:johnsonafuye@gmail.com"> */}
-          <img
-            src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155465/samples/edugemobile_dh38fg.jpg"
-            className="hero-img edugie-picture"
-            alt="Woman enjoying food, meals in storage container, and food bowls on a table"
-          />
-          {/* </a> */}
-          {/* <a href="mailto:johnsonafuye@gmail.com"> */}
-          <img
-            src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155463/samples/cryptomobile_uiokhn.jpg"
-            className="hero-img"
-            alt="Woman enjoying food, meals in storage container, and food bowls on a table"
-          />
-          {/* </a> */}
+
+          <a href="https://edugie-kitchen.vercel.app/">
+            <img
+              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155465/samples/edugemobile_dh38fg.jpg"
+              className="hero-img edugie-picture"
+              alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+            />
+          </a>
+
+          <a href="https://defi-exchange-eight.vercel.app/">
+            <img
+              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155463/samples/cryptomobile_uiokhn.jpg"
+              className="hero-img"
+              alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+            />
+          </a>
 
           <div className="project">
             <h6 className="project-title"> Crypto Dev Defi 💲 </h6>
@@ -91,7 +93,7 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="container2 grey">
+        <div className="container2">
           <div className="item-project ">
             <h6>More Projects</h6>
             <div className="hr"></div>
