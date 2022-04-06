@@ -1,0 +1,81 @@
+function Icon() {
+  return (
+    <>
+      <div className="item  item-icon">
+        <img
+          className="icon"
+          alt=""
+          src="https://img.icons8.com/color/144/000000/react-native.png"
+        />
+        <img className="icon" alt="" src="js.gif" />
+        <img
+          className="icon"
+          alt=""
+          src="https://img.icons8.com/color/960/000000/typescript.png"
+        />
+        <img
+          className="icon"
+          alt=""
+          src="https://img.icons8.com/color/960/000000/nodejs.png"
+        />
+        <img
+          className="icon"
+          alt=""
+          src="https://img.icons8.com/color/960/000000/mongodb.png"
+        />
+        <img
+          className="icon"
+          alt=""
+          src="https://img.icons8.com/color/480/000000/postgreesql.png"
+        />
+        <img
+          className="icon"
+          alt=""
+          src="https://img.icons8.com/color/480/000000/css3.png"
+        />
+        <img
+          className="icon"
+          alt=""
+          src="https://img.icons8.com/color/480/000000/sass.png"
+        />
+        <img
+          className="icon"
+          alt=""
+          src="https://img.icons8.com/color/960/000000/html-5--v2.png"
+        />
+        <img
+          className="icon"
+          alt=""
+          src="https://img.icons8.com/color/480/000000/ethereum.png"
+        />
+        <img
+          className="icon"
+          alt=""
+          src="https://img.icons8.com/color/480/000000/firebase.png"
+        />
+        <img
+          className="icon"
+          alt=""
+          src="https://img.icons8.com/color/480/000000/graphql.png"
+        />
+        <img
+          className="icon"
+          alt=""
+          src="https://img.icons8.com/color/480/000000/git.png"
+        />
+        <img
+          className="icon"
+          alt=""
+          src="https://img.icons8.com/color/480/000000/redux.png"
+        />
+        <img
+          className="icon"
+          alt=""
+          src="https://img.icons8.com/color/480/000000/docker.png"
+        />
+      </div>
+    </>
+  );
+}
+
+export default Icon;

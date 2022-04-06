@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./Navbar/Navbar";
-import Nav from "./Nav";
+import Resume from "./resume";
+import Icon from "./icon";
 
 function App() {
   return (
@@ -31,17 +32,7 @@ function App() {
             a passion for design, and a lovely culture.
           </div>
           <div className="item ">
-            <h6> Brief resume</h6>
-            <div className="hr"></div>
-            <p className="company-name">Decagon</p>
-            <p className="date">2021/08 ➡️ today</p>
-            <p className="position">Software Engineer</p>
-            <p className="company-name">Zigatech</p>
-            <p className="date">2022/02 ➡️ today</p>
-            <p className="position">Backend Engineer</p>
-            <p className="company-name">Ultrabaesic consultancy</p>
-            <p className="date">2019/11 ➡️ 2021/08</p>
-            <p className="position">Fullstack Engineer</p>{" "}
+            <Resume />
           </div>
         </div>
         <h1 className="subheading"> Recent Projects</h1>
@@ -131,79 +122,7 @@ function App() {
               <button className="btnp">Explore Project</button>
             </a>
           </div>
-          <div className="item  item-icon">
-            <img
-              className="icon"
-              alt=""
-              src="https://img.icons8.com/color/144/000000/react-native.png"
-            />
-            <img className="icon" alt="" src="js.gif" />
-            <img
-              className="icon"
-              alt=""
-              src="https://img.icons8.com/color/960/000000/typescript.png"
-            />
-            <img
-              className="icon"
-              alt=""
-              src="https://img.icons8.com/color/960/000000/nodejs.png"
-            />
-            <img
-              className="icon"
-              alt=""
-              src="https://img.icons8.com/color/960/000000/mongodb.png"
-            />
-            <img
-              className="icon"
-              alt=""
-              src="https://img.icons8.com/color/480/000000/postgreesql.png"
-            />
-            <img
-              className="icon"
-              alt=""
-              src="https://img.icons8.com/color/480/000000/css3.png"
-            />
-            <img
-              className="icon"
-              alt=""
-              src="https://img.icons8.com/color/480/000000/sass.png"
-            />
-            <img
-              className="icon"
-              alt=""
-              src="https://img.icons8.com/color/960/000000/html-5--v2.png"
-            />
-            <img
-              className="icon"
-              alt=""
-              src="https://img.icons8.com/color/480/000000/ethereum.png"
-            />
-            <img
-              className="icon"
-              alt=""
-              src="https://img.icons8.com/color/480/000000/firebase.png"
-            />
-            <img
-              className="icon"
-              alt=""
-              src="https://img.icons8.com/color/480/000000/graphql.png"
-            />
-            <img
-              className="icon"
-              alt=""
-              src="https://img.icons8.com/color/480/000000/git.png"
-            />
-            <img
-              className="icon"
-              alt=""
-              src="https://img.icons8.com/color/480/000000/redux.png"
-            />
-            <img
-              className="icon"
-              alt=""
-              src="https://img.icons8.com/color/480/000000/docker.png"
-            />
-          </div>
+          <Icon />
         </div>
         <div className="container2">
           <div className="item  item-1">
@@ -227,17 +146,7 @@ function App() {
             <h6>© Designed and built by Johnson Afuye.</h6>
           </div>
           <div className="item footer ">
-            <h6> Brief resume</h6>
-            <div className="hr"></div>
-            <p className="company-name">Decagon</p>
-            <p className="date">2021/08 ➡️ today</p>
-            <p className="position">Software Engineer</p>
-            <p className="company-name">Zigatech</p>
-            <p className="date">2022/02 ➡️ today</p>
-            <p className="position">Backend Engineer</p>
-            <p className="company-name">Ultrabaesic consultancy</p>
-            <p className="date">2019/11 ➡️ 2021/08</p>
-            <p className="position">Fullstack Engineer</p>{" "}
+            <Resume />
           </div>
         </div>
       </div>
