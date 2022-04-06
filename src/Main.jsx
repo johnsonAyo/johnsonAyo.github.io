@@ -13,12 +13,15 @@ function App() {
             for physical computing. I want to improve the world with simple yet
             smart solutions.
           </div>
-
-          <img
-            srcSet="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649157134/samples/WhatsApp_Image_2022-03-11_at_8.54.01_PM_crgq5a.jpg"
-            className="hero-img"
-            alt="Woman enjoying food, meals in storage container, and food bowls on a table"
-          />
+          <div className="img-container">
+            <a href="https://github.com/johnsonAyo">
+              <img
+                srcSet="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649157134/samples/WhatsApp_Image_2022-03-11_at_8.54.01_PM_crgq5a.jpg"
+                className="hero-img"
+                alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+              />
+            </a>
+          </div>
         </div>
         <div className="container2">
           <div className="item  item-1">
@@ -43,13 +46,15 @@ function App() {
         </div>
         <h1 className="subheading"> Recent Projects</h1>
         <div className="container3">
-          <a href="https://travel-stories-ashen.vercel.app/">
-            <img
-              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155463/samples/travelmobile_x2tyxl.jpg"
-              className="hero-img"
-              alt="Woman enjoying food, meals in storage container, and food bowls on a table"
-            />
-          </a>
+          <div className="img-container">
+            <a href="https://travel-stories-ashen.vercel.app/">
+              <img
+                src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155463/samples/travelmobile_x2tyxl.jpg"
+                className="hero-img"
+                alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+              />
+            </a>
+          </div>
 
           <div className="project">
             <h6 className="project-title"> Discover Africa 〄</h6>
@@ -67,22 +72,24 @@ function App() {
               respective prices and order for the desired meals.
             </p>
           </div>
-
-          <a href="https://edugie-kitchen.vercel.app/">
-            <img
-              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155465/samples/edugemobile_dh38fg.jpg"
-              className="hero-img edugie-picture"
-              alt="Woman enjoying food, meals in storage container, and food bowls on a table"
-            />
-          </a>
-
-          <a href="https://defi-exchange-eight.vercel.app/">
-            <img
-              src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155463/samples/cryptomobile_uiokhn.jpg"
-              className="hero-img"
-              alt="Woman enjoying food, meals in storage container, and food bowls on a table"
-            />
-          </a>
+          <div className="img-container hero-img edugie-picture">
+            <a href="https://github.com/johnsonAyo">
+              <img
+                src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155465/samples/edugemobile_dh38fg.jpg"
+                className="hero-img edugie-picture"
+                alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+              />
+            </a>
+          </div>
+          <div className="img-container hero-img">
+            <a href="https://github.com/johnsonAyo">
+              <img
+                src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1649155463/samples/cryptomobile_uiokhn.jpg"
+                className="hero-img"
+                alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+              />
+            </a>
+          </div>
 
           <div className="project">
             <h6 className="project-title"> Crypto Dev Defi 💲 </h6>

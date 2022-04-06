@@ -109,11 +109,13 @@
     width: 100%;
     display: table;
     color: black;
+    font-weight: bolder;
   }
 
   .nav-links:hover {
-    background-color: #7577fa;
-    border-radius: 0;
+    color: white;
+    font-size: 4rem;
+    transition: all 0.5s ease-out;
   }
 
   .menu-icon {

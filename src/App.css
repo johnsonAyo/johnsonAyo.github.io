@@ -168,7 +168,7 @@ html {
   font-size: 3rem;
 }
 .hero-img {
-  width: 80%;
+  width: 100%;
   justify-self: center;
   object-fit: cover;
 
@@ -254,11 +254,11 @@ html {
   }
 
   .icon {
-    width: 8rem;
+    width: 7rem;
   }
 
   .item-icon {
-    margin: 5rem;
+    margin: 3rem;
   }
 
   .item-project {
