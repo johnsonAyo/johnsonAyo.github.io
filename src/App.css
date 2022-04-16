@@ -282,6 +282,10 @@ html {
     grid-row: 3/4;
   }
 
+  .ecommerce-picture {
+    grid-row: 7/8;
+  }
+
   .footer {
     grid-row: 1/2;
   }

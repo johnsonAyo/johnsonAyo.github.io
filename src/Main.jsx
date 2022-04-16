@@ -6,13 +6,12 @@ import Icon from "./icon";
 function App() {
   return (
     <>
-      <Navbar />
       <div className="wrapper">
+        <Navbar />
         <div className="container">
           <div className="moveInLeft hero-1">
             👋 Hi! My name is Johnson. I am a Software engineer with a passion
-            for physical computing. I want to improve the world with simple yet
-            smart solutions.
+            to improve the world with simple yet smart solutions.
           </div>
           <div className="img-container">
             <a href="https://github.com/johnsonAyo">
@@ -26,7 +25,7 @@ function App() {
         </div>
         <div className="container2">
           <div className="hero  hero-1">
-            I currently live in lagos, Nigeria, and am searching for new work
+            I currently live in lagos, Nigeria, I'm also searching for new work
             opportunities as a software Engineer. I am looking for a
             company/start-up/agency that can offer exciting product challenges,
             a passion for design, and a lovely culture.
@@ -87,8 +86,26 @@ function App() {
             <p>
               This is a decentralized finance exchange Built with only one asset
               pair (Eth & Crypto Dev token). This Decentralized Exchange takes a
-              fee of 1% on swaps. When a user adds liquidity, they are given
+              fee of 1% on swaps. When a user adds liquidity.
             </p>
+          </div>
+          <div className="project">
+            <h6 className="project-title"> Jays Gadget Hub 〄</h6>
+            <p>
+              This is an online store where you can order gadgets and other
+              electronic devices. It has both the customer interface which
+              requires having an account and an admin interface for adding and
+              removing products being displayed at the customer page
+            </p>
+          </div>
+          <div className="img-container ecommerce-picture">
+            <a href="https://droid-store-eef61.web.app/">
+              <img
+                src="https://res.cloudinary.com/dfi24gqb6/image/upload/v1650104393/Screenshot_2022-04-16_at_11.13.18_AM_l4rfow.jpg"
+                className="hero-img ecommerce-picture"
+                alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+              />
+            </a>
           </div>
         </div>
         <div className="container2">

@@ -10,7 +10,7 @@ function Resume() {
       <p className="date">2021/02 ➡️ 2021/07</p>
       <p className="position">Backend Engineer</p>
       <p className="company-name">Ultrabaesic consultancy</p>
-      <p className="date">2020/01 ➡️ 2021/02</p>
+      <p className="date">2019/12 ➡️ 2021/02</p>
       <p className="position">Fullstack Engineer</p>
     </>
   );

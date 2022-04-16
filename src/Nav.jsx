@@ -8,7 +8,7 @@ function Nav() {
       <StickyNav length="40" className="main-nav">
         <div>
           <a className="main-nav-link" href="#meals">
-              👨🏽‍💻 Johnson Afuye
+            👨🏽‍💻 Johnson Afuye
           </a>
         </div>
         <ul className="main-nav-list">
