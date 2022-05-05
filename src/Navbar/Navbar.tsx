@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className="NavbarItems">
-      <h1 className="navbar-logo">👨🏽‍💻 Johnson Afuye</h1>
+      <h1 className="navbar-logo">☯︎Johnson Afuye</h1>
       <div className="menu-icon" onClick={() => handleMenuClick()}>
         <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
@@ -27,7 +27,6 @@ const Navbar = () => {
           );
         })}
       </ul>
-      {/* <Button> SignUp </Button> */}
     </nav>
   );
 };

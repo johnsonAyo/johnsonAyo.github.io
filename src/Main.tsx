@@ -8,8 +8,8 @@ function App() {
     <>
       <div className="wrapper">
         <Navbar />
-        <div className="container">
-          <div className="moveInLeft hero-1">
+        <div className="container" id="about">
+          <div className="moveInLeft hero-1" id="about">
             👋 Hi! My name is Johnson. I am a Software engineer with a passion
             to improve the world with simple yet smart solutions.
           </div>
@@ -34,7 +34,7 @@ function App() {
             <Resume />
           </div>
         </div>
-        <h1 className="subheading"> Recent Projects</h1>
+        <h1 className="subheading" id="project"> Recent Projects</h1>
         <div className="container3">
           <div className="img-container">
             <a href="https://travel-stories-ashen.vercel.app/">
@@ -141,23 +141,23 @@ function App() {
           </div>
           <Icon />
         </div>
-        <div className="container2">
+        <div className="container2" id="contact">
           <div className="hero  hero-1">
             <p>Wanna Start a project?</p>
             <p>or</p>
             <p>Wanna say Hello ?</p>
             <div className="social  hero-icon">
               <a href="hhttps://www.linkedin.com/in/johnson-a-b2763b162/">
-                <img className="icon" alt="" src="link.gif" />
+                <img className="icon" alt="" src="https://img.icons8.com/color/144/000000/linkedin.png" />
               </a>
               <a href="https://github.com/johnsonAyo">
-                <img className="icon" alt="" src="github.gif" />
+                <img className="icon" alt="" src="https://img.icons8.com/color/144/000000/github.png" />
               </a>
               <a href="https://twitter.com/Ambiti0n____">
-                <img className="icon" alt="" src="twitter.gif" />
+                <img className="icon" alt="" src="https://img.icons8.com/color/144/000000/twitter.png" />
               </a>
               <a href="mailto:johnsonafuye@gmail.com">
-                <img className="icon" alt="" src="gmail.gif" />
+                <img className="icon" alt="" src="https://img.icons8.com/color/144/000000/gmail.png" />
               </a>
             </div>
             <h6>© Designed and built by Johnson Afuye.</h6>

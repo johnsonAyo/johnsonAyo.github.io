@@ -197,22 +197,10 @@ html {
 .icon {
   margin: 1rem;
 }
-/* 
-.nav {
-  transition: all 0.1s linear;
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  z-index: 2000;
-  padding: 2rem;
-  color: black;
-  transition: all 3s ease;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  border-bottom: none;
-} */
+
+.item-icon{
+  margin-left:10rem;
+}
 
 @media (max-width: 500px) {
   html {
@@ -255,6 +243,7 @@ html {
 
   .icon {
     width: 7rem;
+
   }
 
   .hero-icon {
