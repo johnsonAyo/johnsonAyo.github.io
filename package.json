@@ -1,5 +1,5 @@
 {
-  "homepage": "https://johnsonayo/github.io/me",
+  "homepage": "https://johnsonayo/github.io/",
   "name": "johnsonAfuye",
   "version": "0.1.0",
   "private": true,
@@ -23,7 +23,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-  
     "watch:sass": "node-sass ./src/styles/sass/main.scss ./src/styles/css/style.css -w",
     "devserver": "live-server",
     "start": "react-scripts start npm-run-all --parallel devserver watch:sass",
@@ -35,7 +34,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    " predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
