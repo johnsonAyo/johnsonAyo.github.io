@@ -160,7 +160,7 @@ function App() {
                 <img className="icon" alt="" src="https://img.icons8.com/color/144/000000/gmail.png" />
               </a>
             </div>
-            <h6>© Designed and built by Johnson Afuye.</h6>
+            <h6>© Designed and built by Johnson Afuye</h6>
           </div>
           <div className="hero footer ">
             <Resume />
