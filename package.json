@@ -1,5 +1,4 @@
 {
-  "homepage": "https://johnsonayo/github.io/me",
   "name": "johnsonAfuye",
   "version": "0.1.0",
   "private": true,
@@ -53,7 +52,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:3000/",
   "devDependencies": {
     "@types/react": "^17.0.41",
     "@types/react-dom": "^17.0.11",
